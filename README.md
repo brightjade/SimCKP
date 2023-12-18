@@ -2,7 +2,7 @@
 
 ![architecture](/simckp.png)
 
-Source code for our *Findings of EMNLP 2023* paper [SimCKP: Simple Contrastive Learning of Keyphrase Representations](https://github.com/brightjade/SimCKP).
+Source code for our *Findings of EMNLP 2023* paper [SimCKP: Simple Contrastive Learning of Keyphrase Representations](https://aclanthology.org/2023.findings-emnlp.199/).
 
 ## Requirements
 
