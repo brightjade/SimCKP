@@ -107,3 +107,30 @@ Evaluate both present and absent keyphrase predictions:
 ```bash
 >> bash scripts/evaluate.sh
 ```
+
+## Citation
+
+If you make use of this code in your work, please kindly cite our paper:
+
+```bibtex
+@inproceedings{choi-etal-2023-simckp,
+    title = "{S}im{CKP}: Simple Contrastive Learning of Keyphrase Representations",
+    author = "Choi, Minseok  and
+      Gwak, Chaeheon  and
+      Kim, Seho  and
+      Kim, Si  and
+      Choo, Jaegul",
+    editor = "Bouamor, Houda  and
+      Pino, Juan  and
+      Bali, Kalika",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+    month = dec,
+    year = "2023",
+    address = "Singapore",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.findings-emnlp.199",
+    doi = "10.18653/v1/2023.findings-emnlp.199",
+    pages = "3003--3015",
+    abstract = "Keyphrase generation (KG) aims to generate a set of summarizing words or phrases given a source document, while keyphrase extraction (KE) aims to identify them from the text. Because the search space is much smaller in KE, it is often combined with KG to predict keyphrases that may or may not exist in the corresponding document. However, current unified approaches adopt sequence labeling and maximization-based generation that primarily operate at a token level, falling short in observing and scoring keyphrases as a whole. In this work, we propose SimCKP, a simple contrastive learning framework that consists of two stages: 1) An extractor-generator that extracts keyphrases by learning context-aware phrase-level representations in a contrastive manner while also generating keyphrases that do not appear in the document; 2) A reranker that adapts scores for each generated phrase by likewise aligning their representations with the corresponding document. Experimental results on multiple benchmark datasets demonstrate the effectiveness of our proposed approach, which outperforms the state-of-the-art models by a significant margin.",
+}
+```
